@@ -1,0 +1,1 @@
+T 2cl drop drop 3right drop drop I 6right drop drop T 3cl drop 4right drop T 3cl 2right drop drop I cl 4right drop drop 10right cl I 6right drop drop I cl  10right drop

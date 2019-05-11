@@ -1,0 +1,23 @@
+Keyboard Listener
+We implemented a KeyController class which extends the functionality of the Controller class with a minimum recompilation on the existing classes(it only needs to recompile the main class). The keyboard mapping will be shown below:
+“J” for left
+“K” for down
+“L” for right
+“I” for Clockwise rotation
+“U” for CounterClockwise rotation
+“Space” for drop
+“R” for reset
+“E” for exit
+“S” for skip
+“+” for levelup
+“-” for leveldown
+“H” for heavy
+“B” for blind
+To implement the KeyController functionality, we modify the XWindow class by adding a pollEvent function which takes in the KeyPress event from the user and returns the keycode. The KeyController Class listens to events triggered by the XWindow and executes the appropriate reaction to these events. 
+
+Skip a block feature
+A new command “skip” is added to skip a block. The user can enter as minimal as “sk” to issue this command. The command skips the current block and pops up the next block. However, score points are deducted by the ( current level add 5). 
+
+ScoreBoard/highScore
+The graphical display and the text display of the game will show who won the game and each player’s respective high score when the game finishes and the player chooses to exit.
+
