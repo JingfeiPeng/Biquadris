@@ -1,0 +1,5 @@
+1: download putty and xming
+2: run xming server
+in setup page of Putty: go ssh -> go x11
+enable forwarding  then write localhost:0.0
+go back to logging page and login as usual.

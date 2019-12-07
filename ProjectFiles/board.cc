@@ -72,27 +72,7 @@ void Board::drawBoard(){
     }
 }
 
-/*
-void Board::setPosn(int hori, int verti){
-    horiShift = hori;
-    VertiShift = verti;
-    for(int i = 0; i < rows ; i++){
-        for(int j = 0; j < cols; j++){
-            grid[i][j].setPosn(hori, verti);
-        }
-    }
-}
 
-
-void Board::setView(View * v){
-    view = v;
-    for(int i = 0; i < rows ; i++){
-        for(int j = 0; j < cols; j++){
-            grid[i][j].setView(v);
-        }
-    }
-}
-*/
 
 void Board::drawBlindBoard(){
         for(int i = 0; i < rows ; i++){

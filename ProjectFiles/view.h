@@ -5,16 +5,12 @@
 #include "board.h"
 #include "level.h"
 #include <memory>
-//#include "score.h"
 
 using namespace std;
 
 class BoardManager;
 
 class View{
-    //bool isBlind;
-   // BoardManager * p1;
-    //BoardManager * p2;
     bool Graphical;
     std::unique_ptr<Xwindow> xw = nullptr;
 public:

@@ -27,7 +27,6 @@ int BoardManager::getCurScore(){
 }
 
 void BoardManager::decideBlockType(std::unique_ptr<Block>& rBlock,char type){
-    // delete block if already exists
     
     if (type == 'I'){
         rBlock = make_unique<Iblock>(board,lev->curLev, blockId);
