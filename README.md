@@ -4,3 +4,6 @@ It also used techniques such as Polymorphism, RAII and single responsibility pri
 
 
 <img src="https://github.com/JingfeiPeng/Biquadris/blob/master/screenshots/graphical.png"/>
+<img src="https://github.com/JingfeiPeng/Biquadris/blob/master/screenshots/graphical2.png" />
+<img src="https://github.com/JingfeiPeng/Biquadris/blob/master/screenshots/textbasedScreenshot.png"/>
+<img src="https://github.com/JingfeiPeng/Biquadris/blob/master/screenshots/textbasedScreen2.png"/>
