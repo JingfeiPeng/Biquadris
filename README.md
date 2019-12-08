@@ -3,4 +3,4 @@ A two players tetris game project made using C++. Incorporated observer, factory
 It also used techniques such as Polymorphism, RAII and single responsibility principle
 
 
-<h3>hds</h3>
+<img src="https://github.com/JingfeiPeng/Biquadris/blob/master/screenshots/graphical.png"/>
